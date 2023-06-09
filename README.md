@@ -111,13 +111,15 @@ Para testar as requisições à API pode-se utilizar diferentes métodos e softw
 
 ### No Thunder Client:
 
-Crie uma nova request, escolha o método GET e insira o endereço completo da requisição, para o exemplo de pegar todos os cursos.
+Crie uma nova request, escolha o método GET e insira o endereço completo da requisição.
 
-    https://DB-HOST:DB-PORT/cursos
+para o exemplo de pegar todos os cursos em um banco no endereço localhost na porta 3000 
+
+    https://localhost:3000/cursos
 
 ### Pelo cURL
 
-    $ curl  -i https://DB-HOST:DB-PORT/cursos
+    $ curl  -i https://localhost:3000/cursos
 
 
 Exemplo de resposta para um Banco de dados com 3 tuplas para a tabela criada:
