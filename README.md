@@ -2,6 +2,7 @@
 
 Foi feita uma API para acesso a um banco de dados em MySQL utilizando a linguagem de programação funcional clojure,com a ferramenta leiningen, utilizando o framework _Ring_ para criar respostas HTTP, o framework de roteamento _Compojure_ para definição das rotas da API e o servidor _Jetty_ para subir a API de fato.
 
+**As principais partes do projeto em clojure se encontram nos arquivos src/core.clj e projeto.clj**
 #
 
 ## Integrantes
